@@ -1,0 +1,19 @@
+# Python 3.10 - 3.12 recommended (librosa/numba/torch lag behind brand-new Python releases)
+# PyTorch: install separately first (see README), e.g.  pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+librosa
+soundfile
+pyarrow
+huggingface_hub
+ipython
+jupyterlab
+ipykernel
+# only for Step 10a (Wav2Vec2) and Step 11 (speech-to-text + sentiment):
+transformers
+datasets<4
+jiwer
